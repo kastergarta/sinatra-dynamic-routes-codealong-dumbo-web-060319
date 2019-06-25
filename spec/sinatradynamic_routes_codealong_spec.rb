@@ -16,7 +16,7 @@ describe 'app.rb' do
   #     get '/goodbye/fannie'
   #     expect(last_response.body).to include("Goodbye, fannie.")
   #   end
-  # end
+  end
 
   describe 'GET /multiply/:num1/:num2' do
     it 'sends a 200 status code' do
